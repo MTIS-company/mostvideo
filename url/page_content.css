@@ -1,0 +1,57 @@
+.page-content {
+  font-size: 1rem;
+  margin: 0 auto;
+  text-align: justify;
+  width: 60%;
+}
+
+@media (max-width: 992px) {
+  .page-content {
+    text-align: left;
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-content {
+    width: 98%;
+  }
+}
+
+.page-content h2 {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.page-content h3 {
+  font-weight: bold;
+}
+
+.page-content p {
+  margin: 20px 0;
+}
+
+.page-content ul {
+  list-style-type: disc;
+}
+
+.page-content ol {
+  list-style-type: decimal;
+}
+
+.page-content ol.li-bold {
+  font-weight: bold;
+}
+
+.page-content ol.li-bold p {
+  font-weight: normal;
+}
+
+.page-content li {
+  margin: 20px 0;
+}
+
+.page-content q {
+  font-style: italic;
+}
+/*# sourceMappingURL=styles.css.map */
